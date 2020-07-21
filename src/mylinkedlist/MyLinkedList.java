@@ -7,8 +7,6 @@ public class MyLinkedList {
 		LinkedList<String> myll = new LinkedList<String>();
 		
 		System.out.println("size:" + myll.size());
-		myll.add(1, "Brand");
-		System.out.println(myll);
 		myll.add(0, "Cho'Gath");
 		System.out.println(myll);
 		myll.addFirst("Darius");
